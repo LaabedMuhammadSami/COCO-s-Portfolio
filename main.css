@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: rgb(28, 26, 53);
+    color: #ffffff;
+}
+
+h1{
+    margin-top: .2rem;
+}
+
+h2{
+    font-size: 2.5rem;
+}
+
+header{
+    display: inline-block;
+    margin-left: 5%;
+    margin-bottom: .75rem;
+}
+
+nav{
+    float: right;
+    margin-right: 15%;
+    margin-top: 1rem;
+}
+
+.navbar li{
+    display: inline-block;
+    font-weight: 600;
+}
+
+.navbar{
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+}
+
+.navbar a{
+    text-decoration: none;
+    padding-bottom: 1.1rem;
+    color: #ffffff;
+}
+
+.navbar a:hover, :focus{
+    color: #dc7e3e;
+    border-bottom: 3px solid rgb(255, 102, 0);
+}
+
+.navbar a:active{
+    color: #ffffff;
+    border-bottom: 3px solid #ffffff;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.socials a{
+    filter: invert(62%) sepia(23%) saturate(1260%) hue-rotate(339deg) brightness(87%) contrast(97%);
+}
+
+.socials a:hover,:focus{
+    filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(0deg) brightness(104%) contrast(115%);
+}
+
+
+
+.Hi{
+    font-weight: 900;
+}
+
+.coco{
+    color: #dc7e3e;
+}
+
+.bio{
+    margin-top: .25rem;
+    margin-bottom: 1rem;
+}
+
+.container-1{
+    box-shadow: 0px 5px 1rem #000000;
+}
+
+.container-2{
+    margin-left: 5%;
+    height: 56rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-3{
+    flex-direction: column;
+    width: 50%;
+}
+
+.cocopic{
+    height: 450px;
+    width: 450px;
+    box-shadow: 0px 5px 1rem #000000;
+    margin-right: 5%;
+}
+
+.cocopic img{
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    margin-left: 75px;
+    margin-top: 75px;
+}
